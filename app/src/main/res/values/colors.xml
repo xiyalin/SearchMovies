@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#80000000</color>
+    <color name="pureWhite">#FFFFFF</color>
+    <color name="pureBlack">#000000</color>
+    <color name="transparentBlack">#80000000</color>
+    <color name="lightBlack">#10000000</color>
+    <color name="transparentYellow">#90FFFF00</color>
+    <color name="azureBlue">#007fff</color>
+    <color name="transparent">#0000</color>
+
+</resources>

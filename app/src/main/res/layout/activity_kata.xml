@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="review.android.androidkata_0.FindMoviesActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:subtitleTextAppearance="@style/KataTheme.ActionBar.SubtitleTextStyle"
+            app:titleTextAppearance="@style/KataTheme.ActionBar.TitleTextStyle">
+
+            <EditText
+                android:id="@+id/edit_movie_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/edit_search_hint"
+                android:imeOptions="actionSearch"
+                android:inputType="textAutoCorrect|textAutoComplete"
+                android:maxLines="1"
+                android:selectAllOnFocus="true"
+                android:textStyle="italic"
+                android:typeface="serif"
+                android:visibility="gone"
+                android:textColor="@color/pureWhite"/>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <!--<ProgressBar-->
+        <!--android:id="@+id/progress_bar"-->
+        <!--style="@android:style/Widget.Holo.Light.ProgressBar.Large"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:visibility="gone"/>-->
+
+    <include layout="@layout/fragment_search"/>
+</RelativeLayout>

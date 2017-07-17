@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="KataTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/azureBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@color/pureWhite</item>
+    </style>
+
+    <style name="KataTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="KataTheme.ActionBar.TitleTextStyle" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/pureWhite</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="KataTheme.ActionBar.SubtitleTextStyle"
+           parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">@color/pureWhite</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="KataTheme.TextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/pureWhite</item>
+    </style>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparentBlack">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/over_view_info_page"
+            style="@style/KataTheme.TextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:textStyle="italic"
+            android:typeface="serif"/>
+
+        <ImageView
+            android:id="@+id/poster_info_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/over_view_info_page"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:src="@drawable/no_image_available"
+            tools:ignore="ContentDescription"/>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/poster_info_page"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/azureBlue"
+            android:paddingTop="20dp"
+            android:text="@string/btn_save_image"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.Button"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            android:paddingBottom="20dp"/>
+    </RelativeLayout>
+</ScrollView>

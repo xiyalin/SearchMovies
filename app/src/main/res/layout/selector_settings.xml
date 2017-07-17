@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp">
+
+    <TextView
+        android:id="@+id/title_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/settings_title"
+        android:textAllCaps="true"
+        android:textColor="@color/pureBlack"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="serif"/>
+
+    <RadioGroup
+        android:id="@+id/image_settings"
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_settings"
+        android:layout_centerInParent="true">
+
+        <RadioButton
+            android:id="@+id/large_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/large_settings"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:typeface="serif"
+            android:buttonTint="@color/azureBlue"/>
+
+        <RadioButton
+            android:id="@+id/small_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:paddingTop="10dp"
+            android:text="@string/small_settings"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:typeface="serif"
+            android:buttonTint="@color/azureBlue"/>
+    </RadioGroup>
+
+</RelativeLayout>
